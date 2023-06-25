@@ -1,0 +1,35 @@
+.clients__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.clients__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 32px;
+
+    border: 1px solid $icon-fill;
+    border-radius: 4px;
+
+    transition-property: border;
+    transition-duration: $transition-duration;
+    transition-timing-function: $transition-timing-function;
+
+    &:hover {
+        border-color: $button-background;
+    }
+}
+
+
+
+.clients__icon {
+    fill: $icon-fill;
+
+    .clients__link:hover & {
+        fill: $button-background;
+    }
+}
+

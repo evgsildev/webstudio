@@ -1,0 +1,32 @@
+@import "base/variables";
+@import "base/general";
+@import "base/reset";
+
+@import "utils/visually-hidden";
+@import "utils/card-set";
+
+@import "components/section";
+@import "components/container";
+
+
+@import "components/logo";
+@import "components/btn";
+@import "components/icon";
+@import "components/link";
+@import "components/sub-title";
+@import "components/nav";
+@import "components/info";
+@import "components/socials";
+@import "components/address";
+@import "components/modal";
+@import "components/form";
+@import "components/button-list";
+
+@import "layout/header";
+@import "layout/hero";
+@import "layout/advantages";
+@import "layout/activities";
+@import "layout/team";
+@import "layout/clients";
+@import "layout/portfolio";
+@import "layout/footer";

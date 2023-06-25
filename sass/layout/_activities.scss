@@ -1,0 +1,30 @@
+.activities__list {
+    display: flex;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.activities__item {
+    position: relative;
+    @include card-set(3, 30px);
+}
+
+.activities__box {
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.activities__heading {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #ffffff;
+}

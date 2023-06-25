@@ -1,0 +1,40 @@
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    &:not(:last-child) {
+        margin-right: 50px;
+    }
+}
+
+
+.nav__link {
+    display: block;
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: $dark-color;
+
+    transition-property: color;
+    transition-duration: $transition-duration;
+    transition-timing-function: $transition-timing-function;
+}
+
+.nav__link-current {
+    color: $accent-color;
+
+    &::after {
+        display: block;
+        height: 4px;
+        width: 100%;
+        bottom: -1px;
+        position: absolute;
+        content: "";
+        
+        background-color: $button-background;
+        border-radius: 2px;
+    }
+}
+

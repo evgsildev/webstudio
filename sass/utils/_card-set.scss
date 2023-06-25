@@ -1,0 +1,5 @@
+@mixin card-set($number, $gap) {
+    width: calc((100% - $number * $gap) / $number);
+    margin-top: $gap;
+    margin-left: $gap;
+}

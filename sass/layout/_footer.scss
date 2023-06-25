@@ -1,0 +1,82 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: $dark-background;
+}
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__address {
+    margin-top: 20px;
+
+    font-style: normal;
+    line-height: 1.71;
+}
+
+
+
+.footer__socials {
+    margin-left: 90px;
+}
+
+.footer__title {
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $light-color;
+}
+
+.socials__link--footer {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer__subscription {
+    margin-left: auto;
+}
+
+.footer__form {
+    display: flex;
+}
+
+.footer__input {
+    display: flex;
+    align-items: center;
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding-left: 16px;
+
+    color: $light-color;
+
+    background-color: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    transition-property: border-color;
+    transition-duration: $transition-duration;
+    transition-timing-function: $transition-timing-function;
+
+    outline: none;
+    cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &:active {
+        border-color: $accent-color;
+    }
+}
+
+
+.footer__button {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

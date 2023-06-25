@@ -1,0 +1,37 @@
+.advantages {
+    padding-bottom: 0;
+}
+
+.advantages__list {
+    display: flex;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.advantages__item {
+    @include card-set(3, 30px);
+}
+
+.advantages__iconbox {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: $light-background;
+    border-radius: 4px;
+}
+
+.advantages__title {
+    margin-bottom: 10px;
+
+    color: $dark-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantages__description {
+    line-height: 1.71;
+}

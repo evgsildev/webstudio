@@ -1,0 +1,25 @@
+.btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: $light-color;
+
+    background-color: $button-background;
+    border-radius: 4px;
+    border-style: none;
+
+    cursor: pointer;
+    transition-property: opacity;
+    transition-duration: $transition-duration;
+    transition-timing-function: $transition-timing-function;
+
+    &:focus,
+    &::after,
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
