@@ -98,9 +98,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 30px;
 
     cursor: pointer;
+
+    @media screen and (max-width: 1199px) {
+            font-size: 12px;
+    }
 }
 
 

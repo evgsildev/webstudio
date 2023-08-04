@@ -1,8 +1,20 @@
 .clients__list {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.clients__item {
+    @include card-set(2, 30px);
+   
+    @media screen and (min-width: 768px) {
+        @include card-set(3, 30px);
+    }
+
+    @media screen and (min-width: 1200px) {
+        @include card-set(6, 30px);
+    }
 }
 
 .clients__link {

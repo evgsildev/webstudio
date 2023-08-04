@@ -1,16 +1,29 @@
 .logo {
     font-family: $second-font;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     color: $accent-color;
-
     line-height: 1.19;
+
+    @media screen and (max-width: 767px) {
+        padding: 16px 0;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        font-size: 26px;
+    }
 }
 
 .logo__top {
-    margin-right: 93px;
-
     color: $dark-color;
+
+    @media screen and (min-width: 768px) {
+        margin-right: 88px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-right: 93px;
+    }
 }
 
 .logo_bottom {
